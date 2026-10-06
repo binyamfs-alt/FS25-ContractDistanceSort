@@ -1,6 +1,6 @@
-# FS25 Contract Distance Sorter
+# FS25 Contract Distance Sort
 
-**Contract Distance Sorter (CDS)** is a Farming Simulator 25 utility mod by **BinyamFS Modding** that sorts available contracts by distance to make contract selection faster and more practical.
+**Contract Distance Sort (CDS)** is a Farming Simulator 25 utility mod by **BinyamFS Modding** that sorts available contracts by distance to make contract selection faster and more practical.
 
 ## Features
 
