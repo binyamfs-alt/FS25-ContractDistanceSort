@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="113">
+    <author>BinyamFS</author>
+    <version>1.0.0.6</version>
+    <title>
+        <en>Contract Distance Sort</en>
+    </title>
+    <description>
+        <en><![CDATA[Sorts the active-contract HUD from the closest field to the farthest field and displays each distance in meters or yards according to the measurement units selected in the game settings. Press Right Ctrl + D (configurable under "Sort active contracts by distance") to sort from your current vehicle position, or from your player position when on foot. Only the local HUD presentation changes; contracts and savegame data remain unchanged.
+
+Changelog 1.0.0.6:
+- Updated mod metadata for the current game version.
+- Added German description and interface translations.
+- Corrected the mod icon format and removed its mipmaps.
+- Removed protected position lookups so unexpected errors appear in the game log.]]></en>
+        <de><![CDATA[Sortiert die Anzeige aktiver Feldaufträge im HUD vom nächstgelegenen bis zum entferntesten Feld. Zeigt die Entfernung je nach Maßeinheit in den Spieleinstellungen in Metern oder Yards an. Mit rechter Strg-Taste + D wird vom aktuellen Fahrzeugstandort aus sortiert; zu Fuß wird der Spielerstandort verwendet. Die Taste kann unter „Aktive Aufträge nach Entfernung sortieren“ geändert werden. Es wird nur die lokale HUD-Darstellung geändert; Aufträge und Spielstanddaten bleiben unverändert.
+
+Changelog 1.0.0.6:
+- Mod-Metadaten an die aktuelle Spielversion angepasst.
+- Deutsche Beschreibung und Benutzeroberflächentexte hinzugefügt.
+- Format des Mod-Symbols korrigiert und Mipmaps entfernt.
+- Geschützte Positionsabfragen entfernt, damit unerwartete Fehler im Spielprotokoll erscheinen.]]></de>
+    </description>
+    <iconFilename>icon_contractDistanceSort.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/ContractDistanceSort.lua"/>
+    </extraSourceFiles>
+
+    <l10n filenamePrefix="l10n/l10n"/>
+
+    <actions>
+        <action name="CDS_SORT_CONTRACTS" category="SYSTEM" axisType="HALF"/>
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="CDS_SORT_CONTRACTS">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_d"/>
+        </actionBinding>
+    </inputBinding>
+</modDesc>
+

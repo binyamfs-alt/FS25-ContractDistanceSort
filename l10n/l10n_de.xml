@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="input_CDS_SORT_CONTRACTS" text="Aktive Aufträge nach Entfernung sortieren"/>
+        <text name="cds_sortComplete" text="Aktive Aufträge sortiert: nächstgelegenes Feld zuerst"/>
+        <text name="cds_noContracts" text="Keine aktiven Feldaufträge zum Sortieren"/>
+    </texts>
+</l10n>
