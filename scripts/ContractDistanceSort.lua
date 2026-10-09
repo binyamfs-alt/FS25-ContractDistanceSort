@@ -56,7 +56,7 @@ local function showMessage(textName)
     if g_currentMission ~= nil and g_currentMission.addIngameNotification ~= nil then
         g_currentMission:addIngameNotification(
             FSBaseMission.INGAME_NOTIFICATION_OK,
-            g_i18n:getText(textName)
+            g_i18n:getText(textName, ContractDistanceSort.MOD_NAME)
         )
     end
 end

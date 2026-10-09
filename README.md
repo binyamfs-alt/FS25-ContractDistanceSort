@@ -23,3 +23,9 @@ This mod is intended for free distribution in accordance with GIANTS Software re
 ## Author
 
 BinyamFS Modding
+
+## German localization testing build
+
+Version 1.0.0.7: German display text follows the game language. Localization and package checks passed; in-game layout remains pending user testing. No release or merge of this testing build.
+
+The previous version already included all three German control/notification texts. This update adds a German mod title and mod-scoped notification lookups. Contract sorting and distance measurement are unchanged.
