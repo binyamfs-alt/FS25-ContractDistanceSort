@@ -4,7 +4,7 @@
     <version>1.0.0.7</version>
     <title>
         <en>Contract Distance Sort</en>
-        <de>Aufträge nach Entfernung sortieren</de>
+        <de>Auftragsentfernung</de>
     </title>
     <description>
         <en><![CDATA[Sorts the active-contract HUD from the closest field to the farthest field and displays each distance in meters or yards according to the measurement units selected in the game settings. Press Right Ctrl + D (configurable under "Sort active contracts by distance") to sort from your current vehicle position, or from your player position when on foot. Only the local HUD presentation changes; contracts and savegame data remain unchanged.
@@ -14,7 +14,7 @@ Changelog 1.0.0.6:
 - Added German description and interface translations.
 - Corrected the mod icon format and removed its mipmaps.
 - Removed protected position lookups so unexpected errors appear in the game log.]]></en>
-        <de><![CDATA[Sortiert die Anzeige aktiver Feldaufträge im HUD vom nächstgelegenen bis zum entferntesten Feld. Zeigt die Entfernung je nach Maßeinheit in den Spieleinstellungen in Metern oder Yards an. Mit rechter Strg-Taste + D wird vom aktuellen Fahrzeugstandort aus sortiert; zu Fuß wird der Spielerstandort verwendet. Die Taste kann unter „Aktive Aufträge nach Entfernung sortieren“ geändert werden. Es wird nur die lokale HUD-Darstellung geändert; Aufträge und Spielstanddaten bleiben unverändert.
+        <de><![CDATA[Sortiert die Anzeige aktiver Feldaufträge im HUD vom nächstgelegenen bis zum entferntesten Feld. Zeigt die Entfernung je nach Maßeinheit in den Spieleinstellungen in Metern oder Yards an. Mit rechter Strg-Taste + D wird vom aktuellen Fahrzeugstandort aus sortiert; zu Fuß wird der Spielerstandort verwendet. Die Taste kann unter „Aktive Auftragsentfernung“ geändert werden. Es wird nur die lokale HUD-Darstellung geändert; Aufträge und Spielstanddaten bleiben unverändert.
 
 Changelog 1.0.0.6:
 - Mod-Metadaten an die aktuelle Spielversion angepasst.
