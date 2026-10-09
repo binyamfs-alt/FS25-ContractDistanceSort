@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testResult>
+    <metaData>
+        <version>0.9.22</version>
+        <builddate>2026-09-29 01:39:25</builddate>
+        <timeofexecution>2026-10-09 16:22:41</timeofexecution>
+        <executionduration>0.069 sec</executionduration>
+    </metaData>
+    <results testrunOutcome="PASS">
+        <dataCollectorResults outcome="PASS" total="6" failed="0" succeeded="6" />
+        <moduleResults outcome="PASS" total="15" failed="0" succeeded="15">
+            <testGroup name="DXTCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="MipMapCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="TextureCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="I3DCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="ModDescCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <descriptionExample name="DescBuilder" />
+            <testGroup name="PreFabCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="VehicleCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="PlaceableCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="MapCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="SlotCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="ObsoleteFiles" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="PublicLuaCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="EditorCheck" passed="True">
+                <!--no problems found-->
+            </testGroup>
+            <testGroup name="ShaderCheckEditor" passed="True">
+                <!--no problems found-->
+                <!--This particular check is only relevant if you plan to release the mod on consoles.-->
+                <!--If the mod is meant to be released on PC only, you can ignore the warnings.-->
+            </testGroup>
+        </moduleResults>
+    </results>
+</testResult>

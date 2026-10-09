@@ -1,0 +1,1 @@
+GIANTS TestRunner 0.9.22 on 2026-10-09: final German localization testing ZIP passed all enabled checks. Editor GUI and shader GUI checks skipped (--skipGuiPrograms). Lua 5.1 emulation and bilingual checks passed. In-game German layout pending user testing. Testing build only. Published validator report omits local configuration and filesystem paths.
