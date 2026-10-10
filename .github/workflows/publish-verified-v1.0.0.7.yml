@@ -1,0 +1,21 @@
+name: Publish verified Contract Distance Sort 1.0.0.7
+on:
+  push:
+    branches: ['release/contract-distance-sort-1.0.0.7']
+    paths: ['.github/workflows/publish-verified-v1.0.0.7.yml']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fc435376579794701b57e53d5ae9f9a2ea21803f
+      - name: Validate ZIP integrity
+        run: python3 -c "import zipfile; z=zipfile.ZipFile('builds/FS25_z_ContractDistanceSort.zip'); assert z.testzip() is None"
+      - name: Publish verified source and package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create 'v1.0.0.7' 'builds/FS25_z_ContractDistanceSort.zip' --target 'fc435376579794701b57e53d5ae9f9a2ea21803f' --latest --title 'Contract Distance Sort 1.0.0.7' --notes 'Adds the German mod title and scopes notification translation lookup to this mod. Existing German controls and notifications are retained. User confirmed German sorting notification and nearest-first contract order in game with metric and imperial units. Automated bilingual sorting regressions and enabled GIANTS TestRunner checks passed; editor GUI checks were skipped. Contract sorting logic and saved data remain unchanged.'
